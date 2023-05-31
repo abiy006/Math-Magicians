@@ -9,6 +9,9 @@
     "ecmaFeatures": {
       "jsx": true
     },
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+   },
     "requireConfigFile": false,
     "ecmaVersion": 2018,
     "sourceType": "module"
