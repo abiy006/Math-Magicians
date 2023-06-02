@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function handleButtonOperation() {
+function useHandleButtonOperation() {
   const [currentState, setCurrentState] = useState({ total: 0, next: null, operation: null });
 
   const addDigit = (buttonName) => {
@@ -11,4 +11,4 @@ function handleButtonOperation() {
   return [currentState, addDigit];
 }
 
-export default handleButtonOperation;
+export default useHandleButtonOperation;

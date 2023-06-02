@@ -1,8 +1,8 @@
-import handleButtonOperation from './handleButtonOperation';
+import useHandleButtonOperation from './useHandleButtonOperation';
 import './styles.css';
 
 function Calculator() {
-  const [currentState, addDigit] = handleButtonOperation();
+  const [currentState, addDigit] = useHandleButtonOperation();
   return (
     <div className="calculator-grid">
       <div className="output">
