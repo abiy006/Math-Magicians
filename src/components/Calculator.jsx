@@ -1,5 +1,16 @@
-import useHandleButtonOperation from './useHandleButtonOperation';
+import { useState } from 'react';
 import './styles.css';
+import calculate from '../logic/calculate';
+
+function useHandleButtonOperation() {
+  const [currentState, setCurrentState] = useState({ total: 0, next: null, operation: null });
+
+  const addDigit = (buttonName) => {
+    setCurrentState(calculate(currentState, buttonName));
+  };
+
+  return [currentState, addDigit];
+}
 
 function Calculator() {
   const [currentState, addDigit] = useHandleButtonOperation();
