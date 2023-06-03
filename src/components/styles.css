@@ -9,9 +9,15 @@ body {
   background: linear-gradient(to right, #0af, #00ff6c);
 }
 
+#root {
+  display: flex;
+  gap: 5rem;
+  margin: 2rem;
+}
+
 .calculator-grid {
   display: grid;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   justify-content: center;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
@@ -42,7 +48,7 @@ button {
   grid-column: 1 / -1;
   background-color: rgba(255, 255, 255, 0.75);
   display: flex;
-  font-size: 2rem;
+  font-size: 1rem;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
