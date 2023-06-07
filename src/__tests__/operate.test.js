@@ -2,7 +2,7 @@ import operate from '../logic/operate';
 
 describe('operate function', () => {
   it('adds two numbers correctly', () => {
-    expect(operate('10', '5', '+')).toBe('15')
+    expect(operate('10', '5', '+')).toBe('15');
   });
 
   it('subtracts two numbers correctly', () => {
