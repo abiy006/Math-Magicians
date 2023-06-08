@@ -18,9 +18,9 @@ function Calculator() {
     <div className="calc-main">
       <div className="math-desc">Let&#39;s do some math!</div>
       <div className="calculator-grid">
-        <div className="output">
-          <div className="previous-operand">{' '}</div>
-          <div className="current-operand">{' '}</div>
+        <div className="output" data-testid="output-test">
+          {/* <div className="previous-operand">{' '}</div>
+          <div className="current-operand">{' '}</div> */}
           {currentState.next || currentState.total || '0'}
         </div>
         <button type="button" className="normal" onClick={() => addDigit('AC')}>AC</button>
