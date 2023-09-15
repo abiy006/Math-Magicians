@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './styles.css';
+import Letmath from './Letmath';
 import calculate from '../logic/calculate';
 
 function useHandleButtonOperation() {
@@ -16,7 +17,8 @@ function Calculator() {
   const [currentState, addDigit] = useHandleButtonOperation();
   return (
     <div className="calc-main">
-      <div className="math-desc">Let&#39;s do some math!</div>
+      {/* <div className="math-desc">Let&#39;s do some math!</div> */}
+      <Letmath />
       <div className="calculator-grid">
         <div className="output" data-testid="output-test">
           {currentState.next || currentState.total || '0'}

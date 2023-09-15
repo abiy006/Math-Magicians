@@ -7,10 +7,6 @@ import NotFound from './components/NotFound';
 
 function App() {
   return (
-  // <>
-  //   <Calculator />
-  //   <Quote />
-  // </>
 
     <Router>
       <div className="App">
