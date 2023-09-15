@@ -17,7 +17,6 @@ function Calculator() {
   const [currentState, addDigit] = useHandleButtonOperation();
   return (
     <div className="calc-main">
-      {/* <div className="math-desc">Let&#39;s do some math!</div> */}
       <Letmath />
       <div className="calculator-grid">
         <div className="output" data-testid="output-test">
