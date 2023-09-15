@@ -14,7 +14,6 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Dicta repudiandae mollitia sint dolore reprehenderit dolorum! Culpa quos magnam mollitia,
         Dicta repudiandae mollitia sint dolore reprehenderit dolorum! Culpa quos magnam mollitia,
-        Dicta repudiandae mollitia sint dolore reprehenderit dolorum! Culpa quos magnam mollitia,
         temporibus facilis unde aut, deserunt cupiditate doloribus quaerat alias earum harum.
       </p>
     </div>
