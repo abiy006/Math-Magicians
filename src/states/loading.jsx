@@ -5,7 +5,7 @@ function Loading() {
   return (
     <p>
       <FaSpinner className="loading-spinner" />
-      Loading...
+      Loading ...
     </p>
   );
 }
