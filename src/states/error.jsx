@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Error({ error }) {
   return (
     <p>
-      Error:
+      Error :
       {error}
     </p>
   );
